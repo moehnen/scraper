@@ -7,7 +7,7 @@
        "textpattern": "Tarife",
        "each": {
            "handle": "download",
-           "textpattern": "Preisliste zum Download als PDF"
+           textpattern: "Preisliste zum Download als PDF"
        }
    }
-};
+}

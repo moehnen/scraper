@@ -1,0 +1,22 @@
+{
+	"name": "atu",
+	"pages": [
+		{
+			"level": 1,
+			"title": "",
+			"url": "http://www.atu.de/pages/shop/atu-talk/tarif.html",
+			"scraper": {
+				"handle": "download",
+				"textpattern": "Preisliste",
+				"level": 1
+			},
+			"pages": [
+				{
+					"title": "1.0.pdf",
+					"url": "http://daten.gtcom-partner.de/PDF/ATU_talk_Preisliste.pdf",
+					"sha": "000df1a8976546b6faa1ae16160eb9ca3a086e59"
+				}
+			]
+		}
+	]
+}
