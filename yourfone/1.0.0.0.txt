@@ -1,0 +1,142 @@
+yourfone GmbH:
+Preisliste für Mobilfunkdienstleistungen,
+gültig für Vertragsabschlüsse ab dem 01.05.2013
+Die nachstehenden Preise sind jeweils die Bruttopreise. Die angegebenen Preise sind die regulären Preise der
+yourfone GmbH. Bei Erhöhung der Mehrwertsteuer behält sich yourfone vor, diese an den Kunden weiterzureichen.
+Für die Berechnung der Preise sind die Verbindungsdauer, die Verbindungsart sowie Nutzungszeiten maßgebend.
+Innerhalb einer Verbindung wird eine Takteinheit stets zu den Tarifbedingungen berechnet, die zu Beginn der Takt-
+einheit gelten. Sofern nicht abweichend bezeichnet, wird immer im Minutentakt abgerechnet. Die angegebenen
+Verbindungspreise beziehen sich stets auf reine Inlandsverbindungen, wenn nicht ausdrücklich auf eine Auslands-
+bzw. Roaming-Verbindung hingewiesen wird. Das Leistungsangebot der Rufumleitung erfasst nur innerdeutsche
+Verbindungen. Rufumleitungen ins Ausland sind nicht möglich.
+
+Die Laufzeit des Mobilfunkvertrages hängt von dem gewählten Tarif ab. Wenn er für eine Mindestvertragslauf-
+zeit von 24 Monaten geschlossen wird, verlängert er sich jeweils um 12 weitere Monate, wenn er nicht von
+einem Vertragspartner mit einer Frist von drei Monaten zum Ende der jeweiligen Vertragslaufzeit gekündigt
+wird. Sofern im Auftragsformular abweichende Fristen für die Mindestvertragslaufzeit, die Dauer der Vertrags-
+verlängerung oder die Kündigungsfrist vorgesehen sind, gelten diese vorrangig.
+
+Optionen, die zum Tarif dazugebucht werden (z.B. SMS Flatrate oder Datenupgrade), haben dieselbe Laufzeit
+wie der gewählte Tarif. Ein Wechsel des Datenupgrades 1GB auf das Datenupgrade 5GB ist nach Ablauf von 30
+Tagen jederzeit möglich.
+
+
+
+ Abweichungen von den nachfolgenden regulären Preisen sind im Rahmen von Promotion-Kampagnen
+ möglich. Es gelten dann vorrangig die in der jeweiligen Kampagne genannten Konditionen.
+
+
+
+    Preise für Standard-Mobilfunkdienstleistungen
+A. Flatrates und Optionen
+Startpaket                                                                                      19,90 einmalig
+
+Flatratepreis Allnet Flat bei einer Laufzeit von 24 Monaten                                     19,90 monatlich
+Flatratepreis Allnet Flat, monatlich kündbar                                                    24,90 monatlich
+SMS Flat                                                                                        5,00 monatlich
+Datenupgrade 1GB                                                                                5,00 monatlich
+Datenupgrade 5GB                                                                                15,00 monatlich
+
+B. Gesprächspreise
+Gespräche ins deutsche Festnetz                                                                Kostenlos
+Gespräche ins deutsche yourfone.de Mobilfunknetz                                               Kostenlos
+Gespräche ins deutsche T-Mobile Mobilfunknetz                                                  Kostenlos
+Gespräche ins deutsche Vodafone Mobilfunknetz                                                  Kostenlos
+Gespräche ins deutsche E-Plus Mobilfunknetz                                                    Kostenlos
+Gespräche ins deutsche O2 Mobilfunknetz                                                        Kostenlos
+Gespräche in alle übrigen deutschen Mobilfunknetze                                             Kostenlos
+
+
+
+
+                                                         1
+Gespräche von Deutschland in die Auslandszone 1 (EU)                                               0,29/Minute
+Gespräche von Deutschland in die Auslandszone 2 (Rest Europa, Nordamerika)                         0,29/Minute
+Gespräche von Deutschland in die Auslandszone 3 (Restliche Welt)                                   0,99/Minute
+
+Gespräche von Auslandszone 1 (EU) nach Deutschland (Taktung 30/1)                                  0,34/Minute
+Gespräche von Auslandszone 1 (EU) in Auslandszone 1 (EU) (Taktung 30/1)                            0,34/Minute
+Gespräche aus Auslandszone 2 (Rest Europa, Nordamerika)                                            1,19/Minute
+Gespräche von Auslandszone 1 (EU) in Auslandszone 2 (Rest Europa, Nordamerika)                     1,19/Minute
+und Auslandszone 3 (Restliche Welt)
+Gespräche aus Auslandszone 3 (Restliche Welt)                                                      1,19/Minute
+Ankommende Gespräche in Auslandszone 1 (EU) (Taktung 1/1)                                          0,09/Minute
+Ankommende Gespräche in Auslandszone 2 (Rest Europa, Nordamerika)                                  1,19/Minute
+Ankommende Gespräche in Auslandszone 3 (Restliche Welt)                                            1,19/Minute
+
+
+Die Preise gelten für abgehende Sprachverbindungen aus einer Länderzone nach Deutschland, innerhalb eines
+Landes und in Ländern der gleichen Zone. Für Gespräche in andere Länderzonen gilt der jeweils höhere Preis. Bei
+abgehenden Gesprächen aus dem Ausland zu sonstigen Sonder-, Service- und Freephone-Nummern sowie für
+Videotelefonie, Satellitentelefonie und Telefonie auf hoher See gilt der jeweilige Preis des Roaming-Partners zzgl.
+21,85% Bearbeitungszuschlag zzgl. MwSt. Bei einzelnen ausländischen Netzbetreibern (USA, Asien, Russland)
+entstehen für ankommende Gespräche im Ausland weitere Gebühren.
+
+
+
+C. SMS/MMS Preise
+SMS in alle deutschen Netze                                                                        0,09
+SMS in alle ausländischen Netze                                                                    0,13
+SMS Empfang im In- und Ausland                                                                    Kostenlos
+SMS Versand aus der Auslandszone 1 (EU) nach Deutschland                                           0,10
+SMS von Auslandszone 1 (EU) in Auslandszone 1 (EU)                                                 0,10
+SMS Versand von Auslandszone 1 (EU) in Auslandszone 2 (Rest Europa, Nordamerika)                   0,29
+und Auslandszone 3 (Restliche Welt)
+SMS Versand aus der Auslandszone 2 (Rest Europa, Nordamerika)                                      0,29
+SMS Versand aus der Auslandszone 3 (Restliche Welt)                                                0,29
+SMS als E-Mail                                                                                     0,20
+SMS als Fax                                                                                        0,29
+E-Mail als SMS                                                                                     0,20
+
+MMS                                                                                                0,39
+MMS ins Ausland                                                                                    0,39 zzgl. Datenroaming
+MMS im Ausland                                                                                     0,39 zzgl. Datenroaming
+
+D. Datenverbindungen (Taktung 10kB)
+Datenverbindungen innerhalb Deutschlands                                                          Kostenlos
+Verbindungen in Auslandszone 1 (EU)                                                                0,49/MB
+Verbindungen in Auslandszone 2 (Rest Europa, Nordamerika)                                          1,19/MB
+Verbindungen in Auslandszone 3 (Restliche Welt)                                                    1,19/MB
+
+E. Mobilbox
+Abruf der Mobilbox                                                                                Kostenlos
+
+
+
+
+                                                          2
+F. Hotlines
+11413 Kundenservice vom Handy innerhalb Deutschlands                                             0,99/Anruf
+00491771711413 Kundenservice vom Handy weltweit                                                  0,99/Anruf
+                                                                                                   zzgl. Roaminggebühr
+
+0900 1811118 Kundenservice aus dem deutschen Festnetz                                            0,99/Anruf
+0800 88118000 Bestellhotline/Optionsbuchungen                                                   Kostenlos
+180 5301777 Service-Fax vom Festnetz                                                             0,14/Minute
+0900 1811118 Kartensperr-Hotline                                                                 0,99/Anruf
+
+
+
+
+Auslandszonen
+
+Auslandszone 1:
+Belgien, Bulgarien, Dänemark, Estland, Finnland (inkl. Ålandinseln), Frankreich (inkl. Monaco, Französisch Guayana,
+Martinique, Guadeloupe und La Réunion), Gibraltar, Griechenland, Großbritannien (inkl. Kanalinseln), Irland, Italien
+(inkl. Vatikanstadt und San Marino), Lettland, Litauen, Luxemburg, Malta, Niederlande, Österreich, Polen, Portugal
+(inkl. Azoren und Madeira), Rumänien, Schweden, Slowakische Republik, Slowenien, Spanien (inkl. Kanarische Inseln),
+Tschechien, Ungarn, Zypern zuzüglich Island, Liechtenstein und Norwegen
+
+Auslandszone 2:
+Albanien, Andorra, Bosnien-Herzegowina, Färöer, Grönland, Isle of Man, Israel, Kosovo, Kroatien, Mazedonien,
+Moldawien, Montenegro, Russische Föderation (westlich des 39. Längengrades), Schweiz, Serbien, Türkei, Ukraine,
+Weißrussland, Kanada, USA
+
+Auslandszone 3:
+In allen übrigen Ländern entstehen für ankommende Gespräche im Ausland weitere Gebühren.
+
+
+
+
+                                                         3
+
