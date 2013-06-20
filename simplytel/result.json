@@ -1,211 +1,153 @@
 {
-	"name": "simplytel",
 	"pages": [
 		{
-			"title": "",
-			"url": "about:blank",
-			"scraper": {
-				"name": "simplytel",
-				"pages": [
-					"https://www.simplytel.de/tarifauswahl"
-				],
-				"each": {
-					"handle": "parse",
-					"textpattern": "Tarifdetails",
-					"each": {
-						"handle": "download",
-						"textpattern": "PDF-Download",
-						"level": null
-					},
-					"level": null
-				}
-			},
+			"level": "1.0",
+			"title": "Tarifübersicht | simply",
+			"url": "https://www.simplytel.de/tarifauswahl",
 			"pages": [
 				{
-					"level": null,
-					"title": "Tarifübersicht | simply",
-					"url": "https://www.simplytel.de/tarifauswahl",
-					"scraper": {
-						"handle": "parse",
-						"textpattern": "Tarifdetails",
-						"each": {
-							"handle": "download",
-							"textpattern": "PDF-Download",
-							"level": null
-						},
-						"level": null
-					},
+					"level": "1.0.0",
+					"title": "All-in XS",
+					"url": "https://www.simplytel.de/allinxs?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
 					"pages": [
 						{
-							"level": null,
-							"title": "All-in XS",
-							"url": "https://www.simplytel.de/allinxs?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/193/tarifuebersicht",
-									"sha": "1d30b8361689ceba58eb6643311d8257b8ead69e"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/194/tarifuebersicht",
-									"sha": "fdf3b740d521a4f7c17fe82f65361a9bf5071a29"
-								}
-							]
+							"level": "1.0.0.0",
+							"title": "1.0.0.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/193/tarifuebersicht",
+							"sha": "1d30b8361689ceba58eb6643311d8257b8ead69e"
 						},
 						{
-							"level": null,
-							"title": "All-in XM",
-							"url": "https://www.simplytel.de/allinxm?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/195/tarifuebersicht",
-									"sha": "aa262a3b03d4bd45a53f416df8a6cc27847bd219"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/196/tarifuebersicht",
-									"sha": "b0d57124bd42f74a28703533772a94f07ebfab12"
-								}
-							]
+							"level": "1.0.0.1",
+							"title": "1.0.0.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/194/tarifuebersicht",
+							"sha": "fdf3b740d521a4f7c17fe82f65361a9bf5071a29"
+						}
+					]
+				},
+				{
+					"level": "1.0.1",
+					"title": "All-in XM",
+					"url": "https://www.simplytel.de/allinxm?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"pages": [
+						{
+							"level": "1.0.1.0",
+							"title": "1.0.1.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/195/tarifuebersicht",
+							"sha": "aa262a3b03d4bd45a53f416df8a6cc27847bd219"
 						},
 						{
-							"level": null,
-							"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
-							"url": "https://www.simplytel.de/bundle1",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/[object Object]",
-									"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/206/tarifuebersicht",
-									"sha": "e3491631d00296eb821878dc3cabcf00b373252b"
-								}
-							]
+							"level": "1.0.1.1",
+							"title": "1.0.1.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/196/tarifuebersicht",
+							"sha": "b0d57124bd42f74a28703533772a94f07ebfab12"
+						}
+					]
+				},
+				{
+					"level": "1.0.2",
+					"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
+					"url": "https://www.simplytel.de/bundle1",
+					"pages": [
+						{
+							"level": "1.0.2.0",
+							"title": "1.0.2.0.pdf",
+							"url": "https://www.simplytel.de/[object Object]",
+							"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
 						},
 						{
-							"level": null,
-							"title": "All-in XL",
-							"url": "https://www.simplytel.de/allinxl?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/197/tarifuebersicht",
-									"sha": "1c7f1d6b19e9ee2cd9bbd1f2c4d8cbba7c2049cf"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/198/tarifuebersicht",
-									"sha": "ab58b6e24d1603a9945170867dc087c04f4d0a1e"
-								}
-							]
+							"level": "1.0.2.1",
+							"title": "1.0.2.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/206/tarifuebersicht",
+							"sha": "e3491631d00296eb821878dc3cabcf00b373252b"
+						}
+					]
+				},
+				{
+					"level": "1.0.3",
+					"title": "All-in XL",
+					"url": "https://www.simplytel.de/allinxl?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"pages": [
+						{
+							"level": "1.0.3.0",
+							"title": "1.0.3.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/197/tarifuebersicht",
+							"sha": "1c7f1d6b19e9ee2cd9bbd1f2c4d8cbba7c2049cf"
 						},
 						{
-							"level": null,
-							"title": "Flat XS",
-							"url": "https://www.simplytel.de/flatxs?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/199/tarifuebersicht",
-									"sha": "ce1e0ff068762144f36fa07f400da6edbcc2d615"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/200/tarifuebersicht",
-									"sha": "10f30b9b44f728d2d7b2fb2b5ca89976d53ed9f5"
-								}
-							]
+							"level": "1.0.3.1",
+							"title": "1.0.3.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/198/tarifuebersicht",
+							"sha": "ab58b6e24d1603a9945170867dc087c04f4d0a1e"
+						}
+					]
+				},
+				{
+					"level": "1.0.4",
+					"title": "Flat XS",
+					"url": "https://www.simplytel.de/flatxs?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"pages": [
+						{
+							"level": "1.0.4.0",
+							"title": "1.0.4.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/199/tarifuebersicht",
+							"sha": "ce1e0ff068762144f36fa07f400da6edbcc2d615"
 						},
 						{
-							"level": null,
-							"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
-							"url": "https://www.simplytel.de/bundle7",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/[object Object]",
-									"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/211/tarifuebersicht",
-									"sha": "f5f8343e43d6ad688df7ee15c26baa92487993bf"
-								}
-							]
+							"level": "1.0.4.1",
+							"title": "1.0.4.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/200/tarifuebersicht",
+							"sha": "10f30b9b44f728d2d7b2fb2b5ca89976d53ed9f5"
+						}
+					]
+				},
+				{
+					"level": "1.0.5",
+					"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
+					"url": "https://www.simplytel.de/bundle7",
+					"pages": [
+						{
+							"level": "1.0.5.0",
+							"title": "1.0.5.0.pdf",
+							"url": "https://www.simplytel.de/[object Object]",
+							"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
 						},
 						{
-							"level": null,
-							"title": "Flat XM",
-							"url": "https://www.simplytel.de/flatxm?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/201/tarifuebersicht",
-									"sha": "d17a0df77e30b101548b1a04becbd977da846bd9"
-								},
-								{
-									"title": "NaN.1.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/202/tarifuebersicht",
-									"sha": "bb6240041e46e61bba6855613e5eb26b8a6baa9b"
-								}
-							]
+							"level": "1.0.5.1",
+							"title": "1.0.5.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/211/tarifuebersicht",
+							"sha": "f5f8343e43d6ad688df7ee15c26baa92487993bf"
+						}
+					]
+				},
+				{
+					"level": "1.0.6",
+					"title": "Flat XM",
+					"url": "https://www.simplytel.de/flatxm?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"pages": [
+						{
+							"level": "1.0.6.0",
+							"title": "1.0.6.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/201/tarifuebersicht",
+							"sha": "d17a0df77e30b101548b1a04becbd977da846bd9"
 						},
 						{
-							"level": null,
-							"title": "simply clever",
-							"url": "https://www.simplytel.de/simply-tarif-uebersicht-clever?simplytel=ackkfk8cartahcatfbjtul8760",
-							"scraper": {
-								"handle": "download",
-								"textpattern": "PDF-Download",
-								"level": null
-							},
-							"pages": [
-								{
-									"title": "NaN.0.pdf",
-									"url": "https://www.simplytel.de/tarifpdf/212/tarifuebersicht",
-									"sha": "87e7c2654758246f9241098f54fbaa1a85ec10c4"
-								}
-							]
+							"level": "1.0.6.1",
+							"title": "1.0.6.1.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/202/tarifuebersicht",
+							"sha": "bb6240041e46e61bba6855613e5eb26b8a6baa9b"
+						}
+					]
+				},
+				{
+					"level": "1.0.7",
+					"title": "simply clever",
+					"url": "https://www.simplytel.de/simply-tarif-uebersicht-clever?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"pages": [
+						{
+							"level": "1.0.7.0",
+							"title": "1.0.7.0.pdf",
+							"url": "https://www.simplytel.de/tarifpdf/212/tarifuebersicht",
+							"sha": "87e7c2654758246f9241098f54fbaa1a85ec10c4"
 						}
 					]
 				}

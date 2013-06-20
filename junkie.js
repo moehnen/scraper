@@ -13,38 +13,14 @@ var fs = require('fs'); // https://github.com/ariya/phantomjs/wiki/API-Reference
 var f = utils.format;
 var scrapeResult = {};
 
-casper.on('error', function (msg, backtrace) {
-    this.echo("=========================");
-    this.echo("ERROR:");
-    this.echo(msg);
-    this.echo(backtrace);
-    this.echo("=========================");
-});
+phantom.injectJs('include.js');
 
-//casper.on('resource.requested', function (resource, request) {
+casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResult) {
 
-//    casper.log("requested: " + resource['url'], "info");
-
-//    //if ((/http:\/\/ad./gi).test(resource['url'])) {
-//    //    console.log('The url of the request is matching. Aborting: ' + resource['url']);
-//    //    request.abort();
-//    //}
-//});
-
-casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResultPages) {
-    var currentPage =
-    {
-        level: currentScrape.level,
-        title: this.getTitle(),
-        url: this.getCurrentUrl()
-        , scraper: currentScrape
-
-    };
-    scrapeResultPages.push(currentPage);
-    this.echo(f("handleLinks: %s: %s", this.getTitle(), this.getCurrentUrl()));
-
+    this.echo("handleLinks: " + JSON.stringify(currentScrape));
+    var links = [];
     if (currentScrape.textpattern) {
-        var links = this.evaluate(function (currentScrape) {
+        links = this.evaluate(function (currentScrape) {
             var links = [];
             Array.prototype.forEach.call(__utils__.findAll('a'), function (e) {
                 //__utils__.echo('#' + e.innerText.trim() + '#');
@@ -58,7 +34,7 @@ casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResultPag
                         link.title = e.getAttribute('title');
                     var found = false;
                     for (var i = 0; i < links.length; i++) {
-                        if (links[i].href == link.href && links[i].innerText == link.innerText) {
+                        if (links[i].href === link.href && links[i].innerText === link.innerText) {
                             found = true;
                             break;
                         }
@@ -72,25 +48,34 @@ casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResultPag
         }, currentScrape);
     } else
         if (currentScrape.pages) {
-            var links = currentScrape.pages;
+            links = currentScrape.pages;
         } else {
-            var links = [this.getCurrentUrl()];
+            links = [this.getCurrentUrl()];
         }
 
-    this.echo("links: " + links.length);
+    this.echo("links found: " + links.length);
     //this.echo("links: " + JSON.stringify(links, null, '\t'));
+
     Array.prototype.forEach.call(links, function (link) {
         var baseUrl = casper.getGlobal('location').origin;
-        var newUrl = helpers.absoluteUri(baseUrl, link.href || link);
+        var newUrl = helpers.absoluteUri(baseUrl, (link.href || link));
         if (!currentScrape.handle || currentScrape.handle === "parse") {
             casper.echo(f(" -parse: %s", newUrl));
             casper
                 .thenOpen(newUrl)
                 .then(function () {
-                    if (!currentPage.pages)
-                        currentPage.pages = [];
-                    currentScrape.each.level = currentScrape.level + 1;
-                    casper.handleLinks(currentScrape.each, currentPage.pages)
+                    if (!scrapeResult.pages)
+                        scrapeResult.pages = [];
+                    var level = currentScrape.level + "." + scrapeResult.pages.length;
+                    var newPage =
+                    {
+                        level: level,
+                        title: this.getTitle(),
+                        url: this.getCurrentUrl()
+                    };
+                    scrapeResult.pages.push(newPage);
+                    currentScrape.each.level = level;
+                    casper.handleLinks(currentScrape.each, newPage);
                 });
         }
         if (currentScrape.handle === "capture") {
@@ -121,24 +106,25 @@ casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResultPag
         if (currentScrape.handle === "download") {
             var urlParts = newUrl.split("/"),
                 workAroundUrl = urlParts[0] + "//" + urlParts[2];
-            casper.echo(f(" -download: %s", newUrl));
+            casper.echo(" -download: "+ newUrl);
             casper
                 .thenOpen(workAroundUrl)
                 .then(function () {
-                    if (!currentPage.pages)
-                        currentPage.pages = [];
                     var base64pdf = casper.base64encode(newUrl);
                     var shapdf = sha.calcSHA1(base64pdf);
-                    var localUrl = currentScrape.level + "." + currentPage.pages.length + ".pdf";// urlParts[urlParts.length - 1];
+                    if (!scrapeResult.pages)
+                        scrapeResult.pages = [];
+                    // urlParts[urlParts.length - 1];
+                    var level = currentScrape.level + "." + scrapeResult.pages.length;
+                    var localUrl = level + ".pdf";
+                    var newPage = {
+                        level: level,
+                        title: localUrl,
+                        url: newUrl,
+                        sha: shapdf
+                    };
+                    scrapeResult.pages.push(newPage);
                     try {
-                        //currentPage.pages.push(currentPage);
-                        var newPage = {
-                            title: localUrl,
-                            url: newUrl,
-                            sha: shapdf
-                        };
-                        //this.echo("push: " + localUrl);
-                        currentPage.pages.push(newPage);
                         fs.write(localUrl, cu.decode(base64pdf), 'wb');
                         this.emit('downloaded.file', localUrl);
                         this.log(f("Downloaded and saved resource in %s", localUrl));
@@ -153,13 +139,14 @@ casper.handleLinks = function handleLinksFunction(currentScrape, scrapeResultPag
 
 casper.loadScrape = function (name) {
     var jsonScrape = fs.read(name + "/scrape.json");
+    this.echo("loadScrape: "+name);
     this.echo(jsonScrape);
     var scrape = JSON.parse(jsonScrape);
     fs.changeWorkingDirectory(scrape.name);
-    scrapeResult['pages'] = [];
     casper
         .then(function () {
-            casper.handleLinks(scrape, scrapeResult.pages);
+            scrape.level = "1";
+            casper.handleLinks(scrape, scrapeResult);
         })
         .then(function () {
             this.echo('========================================');
@@ -176,8 +163,7 @@ casper.start().then(function () {
         var files = fs.list(".");
         Array.prototype.forEach.call(files, function (file) {
             if (fs.isDirectory(file) && fs.exists(file + "/scrape.js")) {
-                casper.echo(file);
-                //casper.loadScrape(file);
+                casper.loadScrape(file);
             }
         });
     }
