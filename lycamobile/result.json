@@ -1,0 +1,17 @@
+{
+	"pages": [
+		{
+			"level": "1.0",
+			"title": "Lycamobile Tarife Inland",
+			"url": "http://www.lycamobile.de/de/nationalrates",
+			"pages": [
+				{
+					"level": "1.0.0",
+					"title": "1.0.0.png",
+					"url": "http://www.lycamobile.de/de/nationalrates",
+					"sha": "2402cd53d6746f89cd3ec44498ad6252d5284d01"
+				}
+			]
+		}
+	]
+}

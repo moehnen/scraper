@@ -8,7 +8,7 @@
 				{
 					"level": "1.0.0",
 					"title": "All-in XS",
-					"url": "https://www.simplytel.de/allinxs?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/allinxs?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.0.0",
@@ -27,7 +27,7 @@
 				{
 					"level": "1.0.1",
 					"title": "All-in XM",
-					"url": "https://www.simplytel.de/allinxm?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/allinxm?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.1.0",
@@ -51,12 +51,6 @@
 						{
 							"level": "1.0.2.0",
 							"title": "1.0.2.0.pdf",
-							"url": "https://www.simplytel.de/[object Object]",
-							"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
-						},
-						{
-							"level": "1.0.2.1",
-							"title": "1.0.2.1.pdf",
 							"url": "https://www.simplytel.de/tarifpdf/206/tarifuebersicht",
 							"sha": "e3491631d00296eb821878dc3cabcf00b373252b"
 						}
@@ -65,7 +59,7 @@
 				{
 					"level": "1.0.3",
 					"title": "All-in XL",
-					"url": "https://www.simplytel.de/allinxl?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/allinxl?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.3.0",
@@ -84,7 +78,7 @@
 				{
 					"level": "1.0.4",
 					"title": "Flat XS",
-					"url": "https://www.simplytel.de/flatxs?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/flatxs?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.4.0",
@@ -108,12 +102,6 @@
 						{
 							"level": "1.0.5.0",
 							"title": "1.0.5.0.pdf",
-							"url": "https://www.simplytel.de/[object Object]",
-							"sha": "ffa547dd2b14522f777d8fe629bd0c7f0efa1556"
-						},
-						{
-							"level": "1.0.5.1",
-							"title": "1.0.5.1.pdf",
 							"url": "https://www.simplytel.de/tarifpdf/211/tarifuebersicht",
 							"sha": "f5f8343e43d6ad688df7ee15c26baa92487993bf"
 						}
@@ -122,7 +110,7 @@
 				{
 					"level": "1.0.6",
 					"title": "Flat XM",
-					"url": "https://www.simplytel.de/flatxm?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/flatxm?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.6.0",
@@ -141,7 +129,7 @@
 				{
 					"level": "1.0.7",
 					"title": "simply clever",
-					"url": "https://www.simplytel.de/simply-tarif-uebersicht-clever?simplytel=a5fb22jc27p9pq0i8jb2jtjbn7",
+					"url": "https://www.simplytel.de/simply-tarif-uebersicht-clever?simplytel=8db4niaf9iiq2btmg56cdtjup2",
 					"pages": [
 						{
 							"level": "1.0.7.0",

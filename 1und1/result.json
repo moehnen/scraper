@@ -1,73 +1,62 @@
 {
-	"name": "1und1",
 	"pages": [
 		{
+			"level": "1.0",
 			"title": "All-Net-Flat | Handytarife günstig online ab 19,99 € bei 1&1",
 			"url": "https://mobile.1und1.de/",
-			"scraper": {
-				"handle": "parse",
-				"textpattern": "Tarifdetails",
-				"each": {
-					"handle": "download",
-					"textpattern": "PDF herunterladen"
-				}
-			},
 			"pages": [
 				{
+					"level": "1.0.0",
 					"title": "1&1 All-Net-Flat Tarifdetails",
 					"url": "https://mobile.1und1.de/tarifdetails?linkOrigin=&linkId=ct.txt.pop.details.tarifdetails-all-net-flat&linkType=txt&tariff=basic",
-					"scraper": {
-						"handle": "download",
-						"textpattern": "PDF herunterladen"
-					},
 					"pages": [
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.0.0",
+							"title": "1.0.0.0.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Preisliste_Mobilfunktarife.pdf",
 							"sha": "a8717a32234c51532f6a669be55d93067a0e6b5b"
 						},
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.0.1",
+							"title": "1.0.0.1.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Mobile_Weitere-Leistungen.pdf",
 							"sha": "0b8eaef23b3cf8e59b9303f61b3dd04a78450b3a"
 						}
 					]
 				},
 				{
+					"level": "1.0.1",
 					"title": "1&1 All-Net-Flat Tarifdetails",
 					"url": "https://mobile.1und1.de/tarifdetails?linkOrigin=&linkId=ct.txt.pop.details.tarifdetails-all-net-flat&linkType=txt&tariff=plus",
-					"scraper": {
-						"handle": "download",
-						"textpattern": "PDF herunterladen"
-					},
 					"pages": [
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.1.0",
+							"title": "1.0.1.0.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Preisliste_Mobilfunktarife.pdf",
 							"sha": "a8717a32234c51532f6a669be55d93067a0e6b5b"
 						},
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.1.1",
+							"title": "1.0.1.1.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Mobile_Weitere-Leistungen.pdf",
 							"sha": "0b8eaef23b3cf8e59b9303f61b3dd04a78450b3a"
 						}
 					]
 				},
 				{
+					"level": "1.0.2",
 					"title": "1&1 All-Net-Flat Tarifdetails",
 					"url": "https://mobile.1und1.de/tarifdetails?linkOrigin=&linkId=ct.txt.pop.details.tarifdetails-all-net-flat&linkType=txt&tariff=pro",
-					"scraper": {
-						"handle": "download",
-						"textpattern": "PDF herunterladen"
-					},
 					"pages": [
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.2.0",
+							"title": "1.0.2.0.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Preisliste_Mobilfunktarife.pdf",
 							"sha": "a8717a32234c51532f6a669be55d93067a0e6b5b"
 						},
 						{
-							"title": "PDF herunterladen",
+							"level": "1.0.2.1",
+							"title": "1.0.2.1.pdf",
 							"url": "https://mobile.1und1.de/modules/frontend-consumer/pdf/1und1_Mobile_Weitere-Leistungen.pdf",
 							"sha": "0b8eaef23b3cf8e59b9303f61b3dd04a78450b3a"
 						}

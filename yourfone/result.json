@@ -1,0 +1,24 @@
+{
+	"pages": [
+		{
+			"level": "1.0",
+			"title": "Startseite | yourfone.de - Die Flatrate für dein Smartphone",
+			"url": "http://www.yourfone.de/",
+			"pages": [
+				{
+					"level": "1.0.0",
+					"title": "Tarifdetails | yourfone.de - Die Flatrate für dein Smartphone",
+					"url": "http://www.yourfone.de/tarifdetails",
+					"pages": [
+						{
+							"level": "1.0.0.0",
+							"title": "1.0.0.0.pdf",
+							"url": "http://www.yourfone.de/tarifdetails.pdf",
+							"sha": "4051f17975f358bb7ce7a9e04e7dd41ff6f1ba95"
+						}
+					]
+				}
+			]
+		}
+	]
+}
