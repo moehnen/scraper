@@ -1,0 +1,174 @@
+{
+	"name": "simplytel",
+	"pages": [
+		{
+			"title": "Tarifübersicht | simply",
+			"url": "https://www.simplytel.de/tarifauswahl",
+			"scraper": {
+				"handle": "parse",
+				"textpattern": "Tarifdetails",
+				"each": {
+					"handle": "download",
+					"textpattern": "PDF-Download"
+				}
+			},
+			"pages": [
+				{
+					"title": "All-in XS",
+					"url": "https://www.simplytel.de/allinxs?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/193/tarifuebersicht",
+							"sha": "1d30b8361689ceba58eb6643311d8257b8ead69e"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/194/tarifuebersicht",
+							"sha": "fdf3b740d521a4f7c17fe82f65361a9bf5071a29"
+						}
+					]
+				},
+				{
+					"title": "All-in XM",
+					"url": "https://www.simplytel.de/allinxm?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/195/tarifuebersicht",
+							"sha": "aa262a3b03d4bd45a53f416df8a6cc27847bd219"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/196/tarifuebersicht",
+							"sha": "b0d57124bd42f74a28703533772a94f07ebfab12"
+						}
+					]
+				},
+				{
+					"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
+					"url": "https://www.simplytel.de/bundle1",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "Smartphone auswählen:\n\nSamsung\nGalaxy SIII mini\n\nSamsung\nGalaxy Pocket Plus\n\nSamsung\nGalaxy SIII\n\nApple\niPhone 5\n\nAllgemeine Konditionen\tAll-in XM smart + Samsung Galaxy SIII mini  \nSamsung Galaxy SIII mini (einmalig) **\t0,00 €\nmonatlicher Paketpreis **\t14,95 €\nmonatliche Freiminuten\t100\nmonatliche Frei-SMS\t100\nmonatliche Handysurf Flatrate\t300 MB\nAnschlussgebühr\t19,95 €\nVersandkosten\t3,60 €\nVertragslaufzeit\t24 Monate\nZahlweise\tper Rechnung\n** Hinweis: Der Gerätepreis für das Samsung Galaxy SIII mini im o. g. Tarif entspricht 168,00 € (7 € mtl. Rate)\nAbgehende Verbindungen innerhalb Deutschlands\nAnrufe in Fest- und Mobilfunknetze\nnach Verbrauch der Freiminuten\t0,15 €\nSMS in Fest- und Mobilfunknetze\nnach Verbrauch der Frei-SMS\t0,15 €\nMailbox\tkostenlos\nDatenverbindungen\tkostenlos\nTarifoptionen (Preis gilt pro Monat)\nHandysurf Flatrate 500 MB\t2,95 €\nHandysurf Flatrate 1 GB\t9,95 €\n\nWeitere Infos\t\nTarifdetails\t PDF-Download\nGerätedetails\t Samsung Galaxy SIII mini\nSie können keine  PDF-Downloads ansehen? Hier Adobe Reader kostenlos herunterladen.",
+							"url": "https://www.simplytel.de",
+							"sha": "5e151a69f639561ac521238a59a7dff2dbea3d0f"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/206/tarifuebersicht",
+							"sha": "e3491631d00296eb821878dc3cabcf00b373252b"
+						}
+					]
+				},
+				{
+					"title": "All-in XL",
+					"url": "https://www.simplytel.de/allinxl?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/197/tarifuebersicht",
+							"sha": "1c7f1d6b19e9ee2cd9bbd1f2c4d8cbba7c2049cf"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/198/tarifuebersicht",
+							"sha": "ab58b6e24d1603a9945170867dc087c04f4d0a1e"
+						}
+					]
+				},
+				{
+					"title": "Flat XS",
+					"url": "https://www.simplytel.de/flatxs?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/199/tarifuebersicht",
+							"sha": "ce1e0ff068762144f36fa07f400da6edbcc2d615"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/200/tarifuebersicht",
+							"sha": "10f30b9b44f728d2d7b2fb2b5ca89976d53ed9f5"
+						}
+					]
+				},
+				{
+					"title": "simply und gut. Günstige Handytarife, Smartphone Tarife, Flatrates",
+					"url": "https://www.simplytel.de/bundle7",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "Smartphone auswählen:\n\nSamsung\nGalaxy S4\n\nHTC\nOne\n\nApple\niPhone 5\n\nAllgemeine Konditionen\tFlat XS smart + Samsung Galaxy S4  \nSamsung Galaxy S4 (einmalig) **\t49,95 €\nmonatlicher Paketpreis **\t39,95 €\nAnrufe in deutsche Fest- und Mobilfunknetze\tkostenlos\nmonatliche Handysurf Flatrate\t500 MB\nAnschlussgebühr\t19,95 €\nVersandkosten\t3,60 €\nVertragslaufzeit\t24 Monate\nZahlweise\tper Rechnung\n** Hinweis: Der Gerätepreis für das Samsung Galaxy S4 im o. g. Tarif entspricht 529,95 € (20 € mtl. Rate + einmalige Anzahlung)\nAbgehende Verbindungen innerhalb Deutschlands\nAnrufe in Fest- und Mobilfunknetze\tkostenlos\nSMS in Fest- und Mobilfunknetze\t0,09 €\nDatenverbindungen\tkostenlos\nAnrufe zur Mailbox\tkostenlos\nRufumleitung aus der Mailbox\nin Fest- und Mobilfunknetze\t0,09 €\nTarifoptionen (Preis gilt pro Monat)\nHandysurf Flatrate 1 GB\t9,95 €\nSpeed Up\n(Surfgeschwindigkeit von bis zu max. 14,4 Mbit/s)\t4,95 €\n\nWeitere Infos\t\nTarifdetails\t PDF-Download\nGerätedetails\t Samsung Galaxy S4\nSie können keine  PDF-Downloads ansehen? Hier Adobe Reader kostenlos herunterladen.",
+							"url": "https://www.simplytel.de",
+							"sha": "5e151a69f639561ac521238a59a7dff2dbea3d0f"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/211/tarifuebersicht",
+							"sha": "f5f8343e43d6ad688df7ee15c26baa92487993bf"
+						}
+					]
+				},
+				{
+					"title": "Flat XM",
+					"url": "https://www.simplytel.de/flatxm?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/201/tarifuebersicht",
+							"sha": "d17a0df77e30b101548b1a04becbd977da846bd9"
+						},
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/202/tarifuebersicht",
+							"sha": "bb6240041e46e61bba6855613e5eb26b8a6baa9b"
+						}
+					]
+				},
+				{
+					"title": "simply clever",
+					"url": "https://www.simplytel.de/simply-tarif-uebersicht-clever?simplytel=8pu9jvihbv4626q9h9msv7d3r2",
+					"scraper": {
+						"handle": "download",
+						"textpattern": "PDF-Download"
+					},
+					"pages": [
+						{
+							"title": "PDF-Download",
+							"url": "https://www.simplytel.de/tarifpdf/212/tarifuebersicht",
+							"sha": "87e7c2654758246f9241098f54fbaa1a85ec10c4"
+						}
+					]
+				}
+			]
+		}
+	]
+}
